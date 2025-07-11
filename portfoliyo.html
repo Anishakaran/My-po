@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <style>
+        @font-face {
+            font-family: abc;
+            src: url(font/NunitoSans-Italic-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+        }
+
+        .body {
+            margin: 0;
+            padding: 0;
+
+
+        }
+
+        .header {
+            background-color: white;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+
+        }
+
+        .header:hover {
+            color: rgb(98, 20, 224);
+        }
+
+        .header:hover ul li a {
+            color: rgb(237, 158, 12);
+        }
+
+        .header:hover ul li {
+            color: rgb(134, 27, 200);
+        }
+
+        @media(max-width:575px) {
+
+            body {
+                margin: 10px !important;
+            }
+
+            .header {
+                position: static;
+            }
+
+            .header {
+                flex-direction: column;
+                padding-block: 5px;
+                position: static;
+            }
+
+            .header ul.nav {
+                flex-direction: column;
+            }
+        }
+
+        .header ul li a:hover {
+            background-color: rgb(100, 184, 237);
+            border: 1px solid black;
+            color: blanchedalmond;
+        }
+
+        .round ul li a:hover {
+            background-color: whitesmoke !important;
+            transform: scale(1.1);
+        }
+
+
+        .footer {
+            background-color: rgb(245, 242, 242);
+        }
+    </style>
+</head>
+
+<body>
+        <div class="anisharesume">
+    <div class="container-fluid">
+            <div class="header shadow d-flex justify-content-between align-items-center py-3 "
+                style="font-family: abc;">
+                <h3 class="">My portfolio....</h3>
+                <ul class="nav list-unstyled justify-content-end">
+                    <li class="nav-item"><a href="aa.html"
+                            class="nav-link text-black border border-black border-top-0 border-start-0 border-bottom-0">Resume</a>
+                    </li>
+                    <li class="nav-item"><a href="portfoliyo project.html"
+                            class="nav-link text-black border border-black border-top-0 border-start-0 border-bottom-0">Project</a>
+                    </li>
+                    <li class="nav-item"><a href="por contact.html"
+                            class="nav-link text-black  border border-bottom-0 border-top-0 border-end-0">Contact</a>
+                            <div>
+                            
+                    </li>
+                </ul>
+            </div>
+            <!-- (about) -->
+            <div class="about text-danger-emphasis py-lg-5">
+
+                <div class="row mt-0">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4 mt-0">
+                        <div class="card bg-transparent border-0">
+
+                            <img src="Image/full.jfif" class="px-3 py-4 rounded-pill " width="450px" height="450px"
+                                alt="">
+                            <div class="card-img-overlay d-flex justify-content-center align-items-center">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-0">
+                        <h2 class="" style="font-size: 70px;">Hello</h2>
+                        <h3 class="text-dark pb-4"><strong class="text-secondary">I am web Developer</strong> My Name is
+                            Anisha prajapati </h3>
+                        <h4 class="">A Bit About Me</h4>
+                        <p style="font-family: abc;">Dedicated and enthusiastic Python Full Stack Developer eager to
+                            apply
+                            academic knowledge and technical skills to real-world projects. Proficient in Python
+                            programming, with a solid foundation in web development frameworks like Django and Flask.
+                            Skilled in JavaScript, HTML, and CSS. Passionate about learning new technologies and
+                            contributing to innovative projects. Seeking a challenging role to gain practical experience
+                            and
+                            grow as a full-stack developer.</p>
+
+                        <div class="round">
+                            <ul class="d-flex list-unstyled justify-content-evenly text-center"
+                                style="font-size: 25px; ">
+                                <li class="nav-item "><a href="aa.html"
+                                        class="nav-link bg-danger border border-2 border-dark  rounded-pill text-center d-flex justify-content-center align-items-center"
+                                        style="height: 120px; width: 120px;">Resume</a></li>
+
+                                <li class="nav-item"><a href="portfoliyo project.html"
+                                        class="nav-link bg-warning border border-2 border-dark  rounded-pill text-center d-flex justify-content-center align-items-center"
+                                        style="height: 120px; width: 120px;">Project</a></li>
+
+                                <li class="nav-item"><a href="por contact.html"
+                                        class="nav-link bg-info border border-2 border-dark  rounded-pill text-center d-flex justify-content-center align-items-center"
+                                        style="height: 120px; width: 120px;">Contact</a></li>
+
+                        </div>
+
+                        <div class="col-md-2"></div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="py-5 container-fluid">
+            <div class="footer border-bottom border-2 border-dark"></div>
+            <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Phone:</h5>
+                    <p></p>
+                </div>
+
+                <div class="col-md-4">
+                    <h5>Email:</h5>
+                    <p>anishaprajapati23598@gmail.com</p>
+                </div>
+
+                <div class="col-md-4">
+                    <h5>from:</h5>
+                    <p>Mahesana</p>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+    </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+
+</html>
